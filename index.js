@@ -24,6 +24,8 @@ function isPalindrome(word) {
 
 function isPalindrome(string){
   let reversedString = string.split('').reverse().join("")  
+  // let reversedString = [...string].reverse().join("")
+
   // console.log(reversedString)
   return string === reversedString
   // console.log(string === reversedString)
